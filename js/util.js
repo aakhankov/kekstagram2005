@@ -1,4 +1,4 @@
-import {getRandomPositiveInteger} from './random';
+import {getRandomPositiveInteger} from './random.js';
 
 const description = [
   'Best Photo',
@@ -51,6 +51,4 @@ const getArrayObject = (value) => {
   }
   return similarFotos;
 }
-getArrayObject(5);
-console.log(similarFotos);
 export {getArrayObject};
